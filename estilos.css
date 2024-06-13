@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-base: hsla(241, 46%, 20%, 0.404);
+}
+body {
+  background-color: var(--color-base);
+}
