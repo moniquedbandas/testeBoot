@@ -5,7 +5,63 @@
 }
 :root {
   --color-base: hsla(241, 46%, 20%, 0.404);
+  --color-text: hsl(210, 11%, 96%);
+  --color-bg1: #ffffff;
+  --color-bg2: #552200;
+  --color-bg3: #fff;
 }
 body {
+  font: 1.25rem Montserrat, sans-serif;
   background-color: var(--color-base);
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+.margin {
+  margin-bottom: 2.8125rem;
+  /* margin-bottom: 45px; */
+}
+.bg-1 {
+  background-color: #1abc9c;
+  color: var(--color-bg1);
+}
+.bg-2 {
+  background-color: #ffffff;
+  color: var(--color-bg2);
+}
+.bg-3 {
+  background-color: var(--color-bg2);
+  color: var(--color-bg3);
+}
+.navbar {
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 0.75rem;
+  letter-spacing: 5px;
+  background-color: #ffccaa;
+}
+.navbar-bar li a:hover {
+  color: #000000 !important;
+}
+.container-fluid {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.container-fluid1 {
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 0.75rem;
+  letter-spacing: 5px;
+  background-color: #ffccaa;
+  color: #000000;
+}
+.fotbar-media a:hover {
+  color: #000000 !important;
+  opacity: 0.7;
 }
