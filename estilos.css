@@ -16,7 +16,6 @@ body {
   line-height: 1.8;
   color: var(--color-text);
 }
-
 .margin {
   margin-bottom: 2.8125rem;
   /* margin-bottom: 45px; */
@@ -49,6 +48,11 @@ body {
 .container-fluid {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+.row p {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: justify;
 }
 .container-fluid1 {
   padding-top: 0.9375rem;
